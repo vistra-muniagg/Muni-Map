@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>My Map</title>
+
+  <!-- Leaflet CSS -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  />
+
+  <!-- Your CSS -->
+  <link rel="stylesheet" href="css/map.css" />
+</head>
+
+<body>
+
+  <!-- Filter UI -->
+  <div class="filter-panel" id="filter-panel">
+    <label for="cousubFilter"><strong>Filter by COUSUB</strong></label>
+    <select id="cousubFilter">
+      <option value="">All</option>
+    </select>
+  </div>
+
+  <!-- Map -->
+  <div id="map"></div>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <!-- Your map logic -->
+  <script src="js/map.js"></script>
+
+</body>
+</html>
